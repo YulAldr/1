@@ -1,20 +1,30 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+VERSION="2.0.0"
+
 ACCOUNTS=[
-"GALN76JFY2ROUGZB2P4YRYFAHZTBUF4ZKSJ7ENUTG7CJNFFUNG6KYFUL"
+"GDIZF5MAUDQ6TLIK3PNZ2ESOJAZDNZWIB675S4SQ5RWUTZP3B3ONUPMX",
+"GDECMXZI4ED7CISQWMVSPNTDAU3VXJBIC6NU6NIB56HRRIHWHGYBEGIA"
 ]
+
 [DOCUMENTATION]
-ORG_NAME="Elton Aldroiks Value Developer"
-ORG_DBA="YulAldr"
-ORG_URL="https://yulaldr.github.io/1/index.html"
-ORG_LOGO="https://yulaldr.github.io/1/StellarEU.png"
-ORG_DESCRIPTION="Smarts solutions for your investment"
-ORG_OFFICIAL_EMAIL="yulongaldroiks@gmail.com"
+ORG_NAME="Codeaffen"
+ORG_URL="https://codeaffen.org"
+ORG_LOGO="https://codeaffen.org/assets/img/avatar-icon.png"
+ORG_PHYSICAL_ADDRESS="Pegasusstrasse 12, 16321 Bernau, Germany"
+ORG_OFFICIAL_EMAIL="webmaster@codeaffen.org"
+ORG_KEYBASE="codeaffen"
+ORG_GITHUB="codeaffen"
+ORG_DESCRIPTION="This is the place where we tell our friends and followers some more or less interesting stuff"
+
 [[PRINCIPALS]]
-name="Yulong Aldroiks"
-email="yulongaldroiks@gmail.com"
-twitter="@YulAldr"
+name="Christian Meissner"
+email="privacy@meissner.sh"
+keybase="zehemee"
+github="cmeissner"
+
 [[CURRENCIES]]
-code="StellarEU"
-issuer="GCGPZY3AMQSU4LZW6V5JVJ4MBT64SNYKCMQTD6AX5BGTOAE4RF5NZ2ZA"
-display_decimals=7
-name="StellarEU Token"
-desc="Token was made by Elton Aldroiks Value Developer . StellarEU is an utility token to store and move value with almost no fee for the secure and fast transaction. StellarEU is a token of the blockchain stellar.org and can be bought with the native cryptocurrency XLM in the exchange of the Stellar Development Fondation "
+code="AFFEN"
+issuer="GDIZF5MAUDQ6TLIK3PNZ2ESOJAZDNZWIB675S4SQ5RWUTZP3B3ONUPMX"
+is_asset_anchored=false
+desc="AFFEN is a token provided by codeaffen.org to its members. It has no monetary value"
+image="https://codeaffen.org/assets/img/Codeaffen_only_C_wo_bg.png"
